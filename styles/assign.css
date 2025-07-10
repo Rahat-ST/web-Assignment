@@ -1,0 +1,92 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* margin: 0px;
+    padding: 0px; */
+
+}
+
+.header {
+    background-image: url(../Images/Hero-bg.png);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+
+.nav-title {
+    font-size: 34px;
+
+}
+
+.banner-content {
+    text-align: center;
+    font-weight: bold;
+    font-size: 68px;
+
+}
+
+.banner {
+    text-align: center;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.action {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+
+}
+
+.section-description {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+
+}
+
+.banner-profile-pic {
+    border-radius: 48px;
+}
