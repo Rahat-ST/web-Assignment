@@ -57,6 +57,7 @@ nav li a {
 
 .banner {
     text-align: center;
+    padding: 200px;
 }
 
 main {
@@ -89,4 +90,37 @@ main {
 
 .banner-profile-pic {
     border-radius: 48px;
+}
+
+
+.Users {
+    background-color: rgba(78, 71, 255, 0.102);
+    padding: 50px 80px;
+    font-size: 42px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.design h1 {
+    font-size: 60px;
+    font-weight: 800px;
+    color: #4E47FF;
+    text-align: center;
+}
+
+.design p {
+    font-size: 15px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.5);
+
+
 }
